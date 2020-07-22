@@ -42,7 +42,7 @@
 
 void combined(){
     
-    TFile *f = TFile::Open("combined_out2.root");
+    TFile *f = TFile::Open("combined.root");
     gStyle->SetOptStat(0);
     //gPad->SetTicks(1,1);
     //////////////////////////Barrel//////////////////////////////
